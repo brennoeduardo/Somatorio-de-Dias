@@ -15,7 +15,7 @@ function render(data){
     date.innerHTML = data;
 }
 
-var soma = Number(window.prompt('Digite um número: '))
+var soma = Number(window.prompt('Digite quantos dias querem somar para a data futura'))
 
 const data = new Date();
 data.setDate(data.getDate() + soma);
